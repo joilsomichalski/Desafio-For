@@ -21,9 +21,7 @@ O usuário digita um nome e a aplicação percorre uma lista de contatos para ve
 
 ## Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
+**HTML5** | **CSS3** | **JavaScript**
 
 ## Conceitos praticados
 
