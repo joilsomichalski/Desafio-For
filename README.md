@@ -1,22 +1,36 @@
-# Desafio For
+# Pesquisa de contato em lista
 
-Projeto simples feito com HTML, CSS e JavaScript para praticar o uso do laço `for`.
+Aplicação simples de busca de contatos desenvolvida com **HTML**, **CSS** e **JavaScript**, usando arrays, objetos e estrutura de repetição `for`.
 
-## Sobre o projeto
+## Demonstração
 
-A aplicação permite pesquisar um contato pelo nome. Quando o nome digitado existe na lista, o sistema mostra o nome e o telefone da pessoa. Caso o campo esteja vazio ou o contato não exista, uma mensagem de aviso é exibida na tela.
+Acesse o projeto online: [pesquisa-de-contato-em-lista.vercel.app](https://pesquisa-de-contato-em-lista.vercel.app)
+
+## Visão geral
+
+O usuário digita um nome e a aplicação percorre uma lista de contatos para verificar se existe uma correspondência. Quando encontra o contato, exibe nome e telefone; quando não encontra, mostra uma mensagem de aviso.
+
+## Funcionalidades
+
+- Pesquisa de contato pelo nome
+- Validação de campo vazio
+- Exibição de contato encontrado
+- Mensagem para contato não cadastrado
+- Comparação de textos ignorando maiúsculas e minúsculas
+- Feedback direto na tela
 
 ## Tecnologias utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 ## Conceitos praticados
 
 - Seleção de elementos com `querySelector`
 - Eventos de clique
-- Estruturas de repetição com `for`
+- Arrays e objetos
+- Estrutura de repetição `for`
 - Condicionais com `if` e `else`
 - Manipulação de conteúdo com `innerHTML`
 - Comparação de textos com `toLowerCase()`
@@ -43,6 +57,13 @@ Se o usuário clicar no botão sem digitar nada, aparece:
 Por favor, digite um nome antes.
 ```
 
-## Objetivo
+## Melhorias planejadas
 
-O objetivo deste projeto é reforçar a lógica de programação usando arrays, objetos e laços de repetição em JavaScript.
+- Permitir cadastro de novos contatos pela interface
+- Mostrar uma lista completa de contatos cadastrados
+- Melhorar acessibilidade do formulário
+- Separar dados e lógica em arquivos diferentes
+
+## Autor
+
+Desenvolvido por [Joilso Michalski](https://github.com/joilsomichalski).
